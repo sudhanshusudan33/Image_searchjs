@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wallpapers</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Wallpapers</h1>
+  <form>
+    <input type="text" id="search-input" placeholder="Search for wallpapers...">
+    <button id="search-button">Search</button>
+  </form>
+  <div class="search-results"></div>
+  <button id="show-more-button" style="display: none;">Show More</button>
+  <div id="image-modal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="modal-img">
+  </div>
+  <div id="message" class="message"></div>
+  <script src="script.js"></script>
+</body>
+</html>
